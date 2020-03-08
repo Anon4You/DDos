@@ -8,15 +8,17 @@ A new tool for denials of service attack
 Author : Bishal Singh
 
 
-apt update && apt upgrade -y
-
-apt install git python2 figlet -y
+apt update && upgrade -y
 
 git clone https://github.com/Anon4You/DDos.git
 
 cd DDos
 
-python2 ddos
+chnod 777 *
+
+./install
+
+
 
 
 booyah 😋😋
