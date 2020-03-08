@@ -22,6 +22,7 @@ year = now.year
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(1490)
+os.system("clear")
 print("\033[31m")
 os.system("figlet DDos")
 print('\033[36m'+"                    A tool by"'\033[31m'+" ["'\033[37m'+"Anon"'\033[32m'+"4"'\033[37m'+"You"'\033[31m'+"]")
