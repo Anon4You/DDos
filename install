@@ -1,1 +1,1 @@
-pkg install git python2 figlet -y && chmod 777 * && mv dd /data/data/com.termux/files/usr && mv ddos /data/data/com.termux/files/usr/bin && cd && echo " " && echo && echo $'\033[31m'"tyep"$'\033[33m'" ddos"$'\033[31m'" to run the tool" && cd && rm -rf DDos
+pkg install git python2 figlet -y && chmod 777 * && mv .dd /data/data/com.termux/files/usr && mv ddos /data/data/com.termux/files/usr/bin && cd && echo " " && echo && echo $'\033[31m'"tyep"$'\033[33m'" ddos"$'\033[31m'" to run the tool" && cd && rm -rf DDos
