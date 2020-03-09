@@ -1,2 +1,1 @@
-cd /data/data/com.termux/files/usr
-python2 dd
+cd /data/data/com.termux/files/usr && python2 .dd
